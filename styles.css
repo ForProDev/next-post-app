@@ -250,7 +250,6 @@ form textarea:focus {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 100%;
   gap: 5%;
-  padding: 0 5rem;
 }
 
 .post-card {
