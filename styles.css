@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 :root {
   --navbar-color: #1a1a1d;
   --color-light: #4e4e50;
@@ -241,7 +243,9 @@ form textarea:focus {
 .home h5 {
   padding-bottom: 5px;
   border-bottom: 2px dashed var(--link-color);
-  width: 210px;
+
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .post {
@@ -444,7 +448,6 @@ form textarea:focus {
   .home h5 {
     padding-bottom: 5px;
     border-bottom: 2px dashed var(--link-color);
-    width: 180px;
     font-size: 1rem;
   }
   .post {
