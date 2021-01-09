@@ -56,10 +56,18 @@ export async function getStaticProps() {
   const res = await fetch("https://blog-projects-api.herokuapp.com/api/post")
   const posts = await res.json()
 
+  if (!posts) {
+    return {
+      notFound: true,
+    }
+  }
+
   return {
     props: {
       posts,
     },
+
+    revalidate: 1,
   }
 }
 
